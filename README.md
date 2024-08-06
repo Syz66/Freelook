@@ -1,4 +1,4 @@
-<img align="right" alt="Powered by OneConfig" width="40px" src="https://polyfrost.org/media/branding/badges/badge_4.svg" />
+<img align="right" alt="Powered by OneConfig" width=80 src="https://polyfrost.org/media/branding/badges/badge_2.svg" />
 
 ## Freelook
 Allows you to freely look around.
