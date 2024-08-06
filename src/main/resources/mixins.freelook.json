@@ -1,0 +1,12 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.7",
+  "package": "me.syz.freelook.mixins",
+  "refmap": "mixins.${id}.refmap.json",
+  "client": [
+    "ActiveRenderInfoMixin",
+    "EntityRendererMixin",
+    "MinecraftMixin",
+    "RenderManagerMixin"
+  ]
+}
