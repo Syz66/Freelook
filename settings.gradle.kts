@@ -19,7 +19,8 @@ rootProject.name = mod_name
 rootProject.buildFileName = "root.gradle.kts"
 
 listOf(
-    "1.8.9-forge" // Update this if you want to remove/add a version, along with `build.gradle.kts` and `root.gradle.kts`.
+    "1.8.9-forge", // Update this if you want to remove/add a version, along with `build.gradle.kts` and `root.gradle.kts`.
+    "1.12.2-forge"
 ).forEach { version ->
     include(":$version")
     project(":$version").apply {

@@ -5,5 +5,7 @@ plugins {
 }
 
 preprocess {
-    "1.8.9-forge"(10809, "srg")
+    "1.12.2-forge"(101202, "srg") {
+        "1.8.9-forge"(10809, "srg")
+    }
 }

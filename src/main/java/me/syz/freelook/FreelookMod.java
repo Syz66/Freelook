@@ -29,7 +29,12 @@ public class FreelookMod {
     @SubscribeEvent
     public void onGuiOpen(GuiOpenEvent event) {
         if (Freelook.mc.thePlayer != null && Freelook.mc.theWorld != null) {
-            if (event.gui != null && Freelook.INSTANCE.perspectiveToggled && FreelookConfig.hold) {
+            //#if MC==10809
+            if (event.gui == null) return;
+            //#else
+            //$$ if (event.getGui() == null) return;
+            //#endif
+            if (Freelook.INSTANCE.perspectiveToggled && FreelookConfig.hold) {
                 Freelook.INSTANCE.resetPerspective();
             }
         }
