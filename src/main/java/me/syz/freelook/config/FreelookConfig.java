@@ -39,7 +39,7 @@ public class FreelookConfig extends Config {
     public static boolean invertYaw = true;
 
     public FreelookConfig() {
-        super(new Mod(FreelookMod.NAME, ModType.UTIL_QOL), FreelookMod.MODID + ".json");
+        super(new Mod(FreelookMod.NAME, ModType.UTIL_QOL, "/freelook.svg"), FreelookMod.MODID + ".json");
 
         initialize();
 
